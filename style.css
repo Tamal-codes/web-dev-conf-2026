@@ -1,7 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 nav{
     display: flex;
     justify-content: space-between;
     margin: 0px 10px;
+    padding: 20px;
+    align-items: center;
+    
 }
 
 .container{
@@ -25,7 +32,7 @@ nav ul {
    gap: 10px;
 }
 button{
-    background-color: #1D4ED8;
+    background-color: #2563eb;
     color: white;
     padding: 8px 30px;
     border-radius: 10px;
@@ -33,4 +40,39 @@ button{
 }
 .download-btn:hover{
     background-color: rgb(53, 203, 253);
+}
+/* body part  */
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-content{
+color: white;
+text-align: center;
+padding: 10px;
+display: grid;
+gap: 20px;
+
+}
+.header-content button{
+    width: fit-content;
+    justify-self: center;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    margin-top: 275px
+}
+.header-content button:hover{
+    background-color:rgb(53, 203, 253) ;
 }
