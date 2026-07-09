@@ -1,50 +1,57 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 10px;
     padding: 20px;
     align-items: center;
-    
+
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
     align-items: center;
 }
-ul li{
-   
+
+ul li {
+
     list-style: none;
 
 
 }
-ul li a{
-  text-decoration: none;
-  color: #575757;
+
+ul li a {
+    text-decoration: none;
+    color: #575757;
 }
+
 nav ul {
     display: flex;
     justify-content: space-between;
-   gap: 10px;
+    gap: 10px;
 }
-button{
+
+button {
     background-color: #2563eb;
     color: white;
     padding: 8px 30px;
     border-radius: 10px;
     cursor: pointer;
 }
-.download-btn:hover{
+
+.download-btn:hover {
     background-color: rgb(53, 203, 253);
 }
+
 /* body part  */
 
-header{
-    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('./assets/banner.jpg');
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('./assets/banner.jpg');
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,15 +61,17 @@ header{
     align-items: center;
 
 }
-.header-content{
-color: white;
-text-align: center;
-padding: 10px;
-display: grid;
-gap: 20px;
+
+.header-content {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: grid;
+    gap: 20px;
 
 }
-.header-content button{
+
+.header-content button {
     width: fit-content;
     justify-self: center;
     padding: 15px 35px;
@@ -73,6 +82,63 @@ gap: 20px;
     cursor: pointer;
     margin-top: 275px
 }
-.header-content button:hover{
-    background-color:rgb(53, 203, 253) ;
+
+.header-content button:hover {
+    background-color: rgb(53, 203, 253);
+
+
+
+}
+
+/* gallary section  */
+
+
+
+.speakers {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+padding-bottom: 10px;
+padding-top: 20px;
+
+
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    text-align: left;
+    overflow: hidden;
+  
+  
+}
+
+.card img {
+    width: 100%;
+
+    object-fit: cover;
+    display: block;
+}
+
+
+.card h6 {
+    color: blue;
+    font-size: small;
+}
+
+.card p {
+    color: #575757;
+    font-size: small;
+
 }
