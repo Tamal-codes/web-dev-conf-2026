@@ -18,14 +18,14 @@ nav {
     align-items: center;
 }
 
-ul li {
+   nav li {
 
     list-style: none;
 
 
 }
 
-ul li a {
+   ul li a {
     text-decoration: none;
     color: #575757;
 }
@@ -42,6 +42,7 @@ button {
     padding: 8px 30px;
     border-radius: 10px;
     cursor: pointer;
+    border: none;
 }
 
 .download-btn:hover {
@@ -100,7 +101,7 @@ header {
     font-size: larger;
     padding: 20px;
     margin-bottom: 20px;
-
+margin-top: 20px;
 
 }
 
@@ -110,7 +111,7 @@ header {
     gap: 30px;
 padding-bottom: 10px;
 padding-top: 20px;
-
+margin: 35px;
 
 }
 
@@ -135,10 +136,89 @@ padding-top: 20px;
 .card h6 {
     color: blue;
     font-size: small;
+margin-left: 20px;
+margin-top: 15px;
 }
 
 .card p {
     color: #575757;
     font-size: small;
+margin-left: 20px
+}
+.card h3{
+    color: #0D1B2A;
+    margin-left: 20px;
+}
+
+
+
+/* discoutnt card section  */
+
+.pricing-div{
+    text-align: center;
+}
+
+.card-s{ width: 300px;
+    border: 1px solid #ddd;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
 
 }
+.p-button:hover{
+    background-color: rgb(53, 203, 253);
+
+}
+
+.p-button{
+    background-color: white;
+    color: #2563eb;
+    border-radius: 10px;
+    border: 1px solid blue;
+    width: 100%;
+}
+.pricing{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.pro{
+    background-color: #0D1B2A;
+    color:#FFFFFF;
+}
+.pro .p-button:hover{
+    background-color:  rgb(53, 203, 253);
+}
+
+
+.pro .p-button{
+    background-color: #2563EB;
+    color: white;
+}
+.card-s .white{
+background-color: #E5E7EB;
+}
+.card-s li{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.card-s hr{
+    margin-top: 20px;
+}
+.card-s h1{
+    margin-left: 20px;
+
+}
+.card-s{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-s h6{
+    margin-left: 20px;
+}
+
+          /* 3 card-s done */
